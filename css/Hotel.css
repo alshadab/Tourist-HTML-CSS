@@ -5,6 +5,10 @@ body {
 .carousel-inner > .item > img {
   height: 400px;
 }
+.navplaza {
+  display: flex;
+  justify-content: space-between;
+}
 
 .container > .row > .s5 {
   height: 380px;
@@ -43,12 +47,23 @@ h5 {
   color: orange;
 }
 
-nav > .nav-wrapper > a:hover {
+nav > .nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  height: 70px;
+}
+
+nav > .nav-wrapper > a {
   text-decoration: none;
 }
 
-nav > .nav-wrapper > #nav-mobile > li > a:hover {
+nav > .nav-wrapper > #nav-mobile > li > a {
   text-decoration: none;
+}
+nav > .nav-wrapper > #nav-mobile > li {
+  list-style: none;
 }
 
 .actions {
