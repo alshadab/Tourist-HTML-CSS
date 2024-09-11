@@ -27,6 +27,17 @@ body {
   font-family: Raleway;
   margin-top: 15px;
 }
+.img-div {
+  width: 30vw;
+  border: 1px solid;
+  height: 50vh; /* Set a height if necessary */
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Makes the image cover the div */
+}
 
 .container > .row > .s5 > #rating {
   margin-top: -10px;
