@@ -324,6 +324,12 @@ header > .logo > h3 > .dot {
   padding: 25px;
   margin-bottom: 20px;
   border-radius: 1%;
+  background: rgb(113, 110, 110);
+  background: linear-gradient(
+    0deg,
+    rgba(113, 110, 110, 1) 0%,
+    rgba(241, 203, 177, 1) 100%
+  );
 }
 
 .col {
